@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.body {
+  background: rgba(0, 0, 0, 1);
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.container .nav-logo {
+  color: rgba(230, 83, 60, 1);
+  font-style: italic;
+  font-size: 36px;
+}
+.container .nav-items {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  /* Frame 2 */
+  width: 465px;
+  height: 46px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding: 4px;
+}
+.container .nav-items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+.container .nav-items .home {
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 24px;
+  padding: 8px 22px;
+}
