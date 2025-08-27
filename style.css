@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&display=swap");
 
 * {
   padding: 0;
@@ -47,4 +47,107 @@
   background-color: rgba(230, 83, 60, 1);
   border-radius: 24px;
   padding: 8px 22px;
+}
+.container .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .hero .content {
+  color: white;
+}
+.container .hero .content .title {
+  font-size: 78px;
+  line-height: 120%;
+}
+.container .hero .content .title .shape {
+  font-family: "Lavishly Yours", cursive;
+  font-size: 96px;
+}
+.container .hero .content p {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.container .hero .content .join-us {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: rgba(230, 83, 60, 1);
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.container .hero .content .download {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-left: 20px;
+}
+.container .hero .image {
+  position: relative;
+}
+.container .hero .badge {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: rgb(32, 32, 32);
+  border-radius: 12px;
+  color: white;
+  position: absolute;
+  /* Group 76 */
+  width: 140px;
+  height: 80px;
+  padding: 10px 18px;
+  top: 25%;
+  left: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .hero .badge .score {
+  font-size: 30px;
+  font-weight: 800;
+}
+.container .hero .badge .workout {
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+.container .hero .badge-two {
+  background-color: rgb(27, 26, 26);
+
+  border-radius: 12px;
+  color: white;
+  position: absolute;
+  /* Group 76 */
+  width: 180px;
+  padding: 24px 12px;
+  top: 75%;
+  left: -20%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.container .hero .badge-two .score {
+  font-size: 30px;
+  font-weight: 800;
+}
+.container .hero .badge-two .workout {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.badge-two img {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 10px;
 }
