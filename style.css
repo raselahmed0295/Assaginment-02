@@ -9,7 +9,7 @@
   background: rgba(0, 0, 0, 1);
 }
 .container {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 .container nav {
@@ -27,13 +27,9 @@
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  /* Frame 2 */
-  width: 465px;
-  height: 46px;
-  /* Auto layout */
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+
+  justify-content: center;
   align-items: center;
   gap: 50px;
   padding: 4px;
@@ -50,11 +46,14 @@
 }
 .container .hero {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .container .hero .content {
   color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .container .hero .content .title {
   font-size: 78px;
@@ -99,12 +98,11 @@
   border-radius: 12px;
   color: white;
   position: absolute;
-  /* Group 76 */
   width: 140px;
   height: 80px;
   padding: 10px 18px;
   top: 25%;
-  left: 60%;
+  left: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,11 +122,11 @@
   border-radius: 12px;
   color: white;
   position: absolute;
-  /* Group 76 */
+
   width: 180px;
   padding: 24px 12px;
   top: 75%;
-  left: -20%;
+  left: -30%;
   display: flex;
   gap: 15px;
   justify-content: center;
@@ -150,4 +148,321 @@
   border-radius: 50%;
   padding: 10px;
   margin-top: 10px;
+}
+.container nav .bar-icon {
+  color: white;
+  display: none;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+/* section habits main works */
+.main-work {
+  width: 70%;
+  margin: 0 auto;
+}
+.main-work .habits {
+  margin: 50px 0;
+}
+.main-work .habits .section-title {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+.main-work .habits .section-description {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.main-work .habits .cards-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-work .habits .cards {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.main-work .habits .card-images img {
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgb(63, 63, 63);
+}
+
+.main-work .habits .cards .card-description {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* section run extra */
+
+.main-work .run-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+  background: rgba(34, 34, 34, 1);
+  padding: 40px 50px;
+  margin: 100px 0;
+}
+.main-work .run-extra .section-content {
+  width: 545px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  color: white;
+}
+.main-work .run-extra .section-content .section-title {
+  font-size: 42px;
+}
+.main-work .run-extra .section-content .section-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-work .run-extra .section-content button {
+  border-radius: 42px;
+  background: rgba(230, 83, 60, 1);
+  padding: 16px 40px;
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+  border: no;
+}
+.main-work .run-extra .image-run-extra {
+  width: 570px;
+}
+.main-work .run-extra .image-run-extra img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.main-work .meet-team {
+  margin: 100px auto;
+  text-align: center;
+}
+.main-work .meet-team .section-content {
+  color: white;
+}
+.main-work .meet-team .section-content .section-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.main-work .meet-team .section-content .section-description {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-work .meet-team .galary .galary-img {
+  background-image: url("./images/trainer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-work .meet-team .galary-two .galary-img {
+  background-image: url("./images/trainer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary-two .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary-two .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+.main-work .meet-team .galary-three .galary-img {
+  background-image: url("./images/trainer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary-three .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary-three .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-work .meet-team .galary-four .galary-img {
+  background-image: url("./images/trainer4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary-four .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary-four .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-work .meet-team .galary-five .galary-img {
+  background-image: url("./images/trainer5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary-five .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary-five .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-work .meet-team .galary-six .galary-img {
+  background-image: url("./images/trainer6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 400px;
+  height: 330px;
+  color: white;
+}
+.main-work .meet-team .galary-six .galary-img .trainer-name {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 260px;
+  margin-left: 20px;
+}
+.main-work .meet-team .galary-six .galary-img .designation {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+}
+
+.main-work .meet-team .team-grid {
+  background-color: rgb(34, 33, 33);
+}
+.main-work .meet-team .team-grid .team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 50px 100px;
+  margin-top: 30px;
+}
+
+/* Responsive for mobile devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 30px;
+  }
+  .container .nav-items {
+    visibility: hidden;
+  }
+  .container nav .bar-icon {
+    display: block;
+    align-items: center;
+    margin-left: -50px;
+  }
+  .container nav .bar-icon i {
+    font-size: 22px;
+  }
+
+  .container .hero {
+    flex-direction: column;
+  }
+
+  .container .hero .content .title {
+    font-size: 48px;
+
+    margin-top: 50px;
+    line-height: 120%;
+  }
+
+  .main-work .habits .cards-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-work .run-extra {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-work .run-extra .section-content {
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: flex-start;
+  }
+  .main-work .run-extra .image-run-extra img {
+    width: 70%;
+    margin-left: 85px;
+    margin-top: 30px;
+  }
+  .main-work .meet-team .team-grid .team {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px 10px;
+  }
 }
